@@ -75,7 +75,7 @@ def load_and_train():
 
     # latih model dengan parameter terbaik hasil GridSearchCV
     model = RandomForestClassifier(
-        n_estimators=200,
+        n_estimators=50,
         max_depth=None,
         min_samples_split=2,
         min_samples_leaf=1,
